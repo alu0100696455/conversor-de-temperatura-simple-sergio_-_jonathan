@@ -114,4 +114,8 @@ footer a:hover {
   #menu h1 {
     font-size: large;
   }
+
+  input {
+    width: 250px;
+  }
 }
