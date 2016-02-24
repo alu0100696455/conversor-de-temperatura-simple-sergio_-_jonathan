@@ -1,12 +1,15 @@
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
 function calculate() {
   var result;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?\s*(?:e\s*[-+]?\d+)?\s*)\º?([a-z]*)/i;
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?\s*(?:e\s*[-+]?\d+)?\s*)\º?(f|c|fahrenheit|celsius)$/i;
 
   var m = temp.match(regexp);
+  var unidades = ["fahrenheit", "celsius"];
+  var pref_f = unidades[0].match(m[2]);
+  var pref_c = unidades[1].match(m[2]);
 
-  if (m) {
+  if (m && (pref_f || pref_c)) {
     var num = m[1];
     var type = m[2];
     num = num.replace(/\s/g, '');
