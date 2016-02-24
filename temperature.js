@@ -2,7 +2,7 @@
 function calculate() {
   var result;
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?\s*(?:e\s*[-+]?\d+)?\s*)\º?([fc])[a-z]*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d*)?\s*(?:e\s*[-+]?\d+)?\s*)\º?(f|c|fahrenheit|celsius)$/i;
 
   var m = temp.match(regexp);
 
@@ -22,6 +22,6 @@ function calculate() {
     converted.innerHTML = result;
   }
   else {
-    converted.innerHTML = "¡ERROR! Ha insertado una temperatura incorrecta. Ejemplo válido: 32.3e5 Fahrenheit";
+    converted.innerHTML = "¡ERROR! Ha insertado una temperatura incorrecta. Ejemplo válido: 32.3e5 ºF";
   }
 }
