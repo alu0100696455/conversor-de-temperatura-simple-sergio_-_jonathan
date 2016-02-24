@@ -1,4 +1,4 @@
-# ETSII ULL Grado de Informatica
+# ULL ESIT Grado de Ingeniería Informática
 
 ## Práctica: Conversor en JavaScript de grados Celsius a Farenheit y viceversa
 
