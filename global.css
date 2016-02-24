@@ -41,20 +41,28 @@ header a:hover {
   display: inline-block;
 }
 
+/*Añadido tamaño al menú de navegación para evitar errores con Firefox*/
+#menu > nav {
+  width: 380px;
+}
+
 /*Se elimina el estilo típico de una lista para que se muestre horizontalmente y sin puntos*/
 
 nav > ul > li, nav > ul {
   list-style-type: none;
   display: inline;
 }
+
 .separador {
   height: 50px;
 }
+
 #pagina {
   width: 90%;
   margin: auto;
   text-align: center;
 }
+
 .output {
   color: red;
   font-weight: bold;
@@ -86,7 +94,7 @@ footer {
 
 /*Se eliminan los "puntos" de la lista*/
 
-footer > ul {
+footer ul {
   list-style-type: none;
 }
 footer a {
@@ -96,23 +104,19 @@ footer a {
 footer a:hover {
   color: rgb(200, 205, 205);
 }
+
 @media screen and (max-width:860px) {
-  header span {
-    /*display: none;*/
-  }
   #menu h1 {
     font-size: x-large;
   }
 }
 @media screen and (max-width:525px) {
-  header span {
-    /*display: none;*/
+  header li {
     font-size: small;
   }
   #menu h1 {
     font-size: large;
   }
-
   input {
     width: 250px;
   }
