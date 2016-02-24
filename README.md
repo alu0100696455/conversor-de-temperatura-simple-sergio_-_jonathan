@@ -8,14 +8,10 @@
 * JavaScript básico
 * Expresiones Regulares
 * Un poquito de CSS
-* Uso de Emmet (instale el plugin para su editor)
-* Uso de Mocha y Chai 
-* Uso de Gulp
 
 ### Despliegue en github.io
 
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
-
-### Ejecutar las pruebas
-
-* [http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/tests/index.html)
+* [http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-sergio_-_jonathan/](http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-sergio_-_jonathan/)
+  
+  
+Autores: Jonathan Expósito Martín y Sergio Rodríguez Martín
