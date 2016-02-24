@@ -28,7 +28,8 @@
   <div id="pagina">
     <p>Introduzca un valor de temperatura en Celsius o Fahrenheit: </p>
     <form id="formulario" onsubmit="calculate();return false;">
-      <input id="original" placeholder="32F" size="50" title="Escriba un número seguido de algún prefijo de las palabras 'Celsius' o 'Fahrenheit'" pattern="^\s*([-+]?\d+(?:\.\d*)?\s*(?:[eE]\s*[-+]?\d+)?\s*)\º?([cCfF][a-zA-Z]*)" />
+      <input id="original" placeholder="32F" size="50" title="Escriba un número seguido de algún prefijo de las palabras 'Celsius' o 'Fahrenheit'"
+      pattern="^\s*([-+]?\d+(?:\.\d*)?\s*(?:[eE]\s*[-+]?\d+)?\s*)\º?(([fF]([aA]([hH]([rR]([eE]([nN]([hH]([eE]([iI]([tT])?)?)?)?)?)?)?)?)?)|([cC]([eE]([lL]([sS]([iI]([uU]([sS])?)?)?)?)?)?))$"/>
     </form>
     <div class="separador"></div>
     <span class="output" id="converted"></span>
