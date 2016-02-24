@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <title>JavaScript Temperature Converter</title>
-     <link href="normalize.css" rel="stylesheet" type="text/css">
-     <link href="global.css" rel="stylesheet" type="text/css">
 
-     <script type="text/javascript" src="temperature.js"></script>
-  </head>
-  <body>
-    <h1>Temperature Converter</h1>
-    <table>
-      <tr>
-        <th>Enter  Temperature (examples: 32F, 45C, -2.5f):</th>
-        <td><input id="original" autofocus onchange="calculate();" placeholder="32F" size="50"></td>
-      </tr>
-      <tr>
-        <th>Converted Temperature:</th>
-        <td><span class="output" id="converted"></span></td>
-      </tr>
-    </table>
-  </body>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>JavaScript Temperature Converter</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="normalize.css" rel="stylesheet" type="text/css">
+  <link href="global.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script type="text/javascript" src="temperature.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id=menu>
+      <h1>Conversor de temperatura</h1>
+      <nav>
+        <ul>
+          <li><a href="http://alu0100699968.github.io/" target="_blank"><i class="fa fa-user"></i> Sergio Rodríguez</a></li>
+          <li><a href="http://alu0100696455.github.io/" target="_blank"><i class="fa fa-user"></i> Jonathan Expósito</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="separador"></div>
+  <div id="pagina">
+    <p>Introduzca un valor de temperatura en Celsius o Fahrenheit: </p>
+    <form id="formulario" onsubmit="calculate();return false;">
+      <input id="original" placeholder="32F" size="50" title="Escriba un número seguido de algún prefijo de las palabras 'Celsius' o 'Fahrenheit'"
+      pattern="^\s*([-+]?\d+(?:\.\d*)?\s*(?:[eE]\s*[-+]?\d+)?\s*)\º?(([fF]([aA]([hH]([rR]([eE]([nN]([hH]([eE]([iI]([tT])?)?)?)?)?)?)?)?)?)|([cC]([eE]([lL]([sS]([iI]([uU]([sS])?)?)?)?)?)?))$"/>
+    </form>
+    <div class="separador"></div>
+    <span class="output" id="converted"></span>
+  </div>
+
+  <footer>
+    <p>Enlaces de interés:</p>
+    <ul id=listamenu>
+      <li><a href="https://github.com/alu0100696455/conversor-de-temperatura-simple-sergio_-_jonathan" target="_blank">Repositorio de la práctica</a></li>
+      <li><a href="https://github.com/alu0100699968" target="_blank">GitHub Sergio Rodríguez</a></li>
+      <li><a href="https://github.com/alu0100696455" target="_blank">GitHub Jonathan Expósito</a></li>
+    </ul>
+  </footer>
+</body>
+
 </html>
