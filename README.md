@@ -11,7 +11,14 @@
 
 ### Despliegue en github.io
 
-* [http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-sergio_-_jonathan/](http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-sergio_-_jonathan/)
+* [Página web del proyecto](http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-sergio_-_jonathan/)
+* [Repositorio en el que trabajamos](http://github.com/alu0100696455/conversor-de-temperatura-simple-sergio_-_jonathan/)
+
+### Campus Virtual
   
+* [Procesadores de Lenguajes](https://campusvirtual.ull.es/1516/course/view.php?id=178)
   
-Autores: Jonathan Expósito Martín y Sergio Rodríguez Martín
+### Autores 
+
+* [Jonathan Expósito Martín](alu0100696455.github.io)
+* [Sergio Rodríguez Martín](alu0100699968.github.io)
