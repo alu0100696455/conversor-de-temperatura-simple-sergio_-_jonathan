@@ -1,7 +1,7 @@
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
 function calculate() {
   var result;
-  var regexp = /^\s*([-+]?\d+(?:\.\d*)?\s*(?:e\s*[-+]?\d+)?\s*)\º?((f(a(h(r(e(n(h(e(i(t)?)?)?)?)?)?)?)?)?)|(c(e(l(s(i(u(s)?)?)?)?)?)?))$/i;
+  var regexp = /^\s*([-+]?\s*\d+(?:\.\d*)?\s*(?:e\s*[-+]?\d+)?\s*)\º?((f(a(h(r(e(n(h(e(i(t)?)?)?)?)?)?)?)?)?)|(c(e(l(s(i(u(s)?)?)?)?)?)?))$/i;
   var temp = original.value;
 
   var m = temp.match(regexp);
